@@ -2,9 +2,10 @@
   "name": "lumie",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "source": "source/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel",
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/nothingissafefck/lumie/issues"
   },
-  "homepage": "https://github.com/nothingissafefck/lumie#readme"
+  "homepage": "https://github.com/nothingissafefck/lumie#readme",
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.9.3",
+    "@parcel/transformer-sass": "^2.9.3",
+    "@parcel/transformer-webmanifest": "^2.9.3",
+    "parcel": "2.9.3",
+    "parcel-packager-svg-sprite": "2.0.0",
+    "parcel-transformer-svg-sprite": "2.0.0"
+  }
 }

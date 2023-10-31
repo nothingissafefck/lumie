@@ -1,0 +1,45 @@
+.about {
+  margin-bottom: 100px;
+  background-color: $cashmere;
+  background-image: url("../img/back1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left bottom;
+
+  @media (max-width: $vp-max-tablet) {
+    margin-bottom: 80px;
+  }
+
+  @media (max-width: $vp-max-mobile) {
+    margin-bottom: 60px;
+  }
+}
+
+.about__container {
+  padding: 210px 100px;
+}
+
+.about__wrapper {
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  max-width: 600px;
+  background-color: $linen;
+  border-radius: 6px;
+
+  h3 {
+    display: inline-block;
+    margin: 0 auto 20px;
+    padding: 20px 60px;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid $twilight;
+  }
+
+  p {
+    padding: 0 40px 40px 40px;
+    text-align: left;
+  }
+}

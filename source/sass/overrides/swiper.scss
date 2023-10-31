@@ -1,0 +1,31 @@
+.swiper-button-next {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  color: $atomic;
+  opacity: 0.5;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+  &::before,
+  &::after {
+    font-size: 28px;
+  }
+}
+
+.swiper-button-prev {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  color: $atomic;
+  opacity: 0.5;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+  &::before,
+  &::after {
+    font-size: 28px;
+  }
+}

@@ -1,0 +1,26 @@
+// global
+@import "global/fonts";
+@import "global/variables";
+@import "global/mixins";
+@import "global/utils";
+@import "global/container";
+
+// blocks
+@import "blocks/header";
+@import "blocks/navigation";
+@import "blocks/intro";
+@import "blocks/products";
+@import "blocks/tabs";
+@import "blocks/about";
+@import "blocks/offer";
+@import "blocks/b2c";
+@import "blocks/b2b";
+@import "blocks/contacts";
+@import "blocks/btn";
+@import "blocks/feedback";
+@import "blocks/footer";
+@import "blocks/expandable";
+
+@import "blocks/privacy-policy";
+
+@import "overrides/swiper";

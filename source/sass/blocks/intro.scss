@@ -1,0 +1,55 @@
+.intro {
+  background-color: $wafer;
+
+  h3 {
+    margin-bottom: 40px;
+    padding-top: 40px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 0.03em;
+  }
+
+  p {
+    padding-top: 50px;
+    padding-right: 50px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+.intro__container {
+  position: relative;
+
+  img {
+    object-fit: cover;
+    max-width: 550px;
+    max-height: 370px;
+    transition: all .75s ease-in-out;
+
+    &:hover {
+      transform: scale(1.05);
+      transform-origin: 50% 50%;
+    }
+  }
+}
+
+.intro__list {
+  //overflow: hidden;
+}
+
+.intro__image {
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.intro__wrapper {
+  display: flex;
+  padding: 20px 0 40px 0;
+}
+
+.intro__description {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+}

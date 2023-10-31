@@ -1,0 +1,29 @@
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  padding: 10px 47px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  color: $white;
+  background-color: $atomic;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: $atomic;
+    background-color: $wafer;
+  }
+
+  &:active {
+    color: $atomic;
+    background-color: $cashmere;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+}

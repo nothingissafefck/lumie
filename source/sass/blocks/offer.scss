@@ -1,0 +1,48 @@
+.offer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 20px 45px;
+  margin-bottom: 40px;
+
+  h2 {
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  button {
+    font-family: $ff-pingfang;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+}
+
+.offer__section {
+  align-self: flex-start;
+  padding-right: 20px;
+  padding-left: 0;
+  border-right: 1px solid $twilight;
+  border-left: none;
+
+  &:not(:first-of-type) {
+    margin-left: -1px;
+    padding-right: 0;
+    padding-left: 20px;
+    border-right: none;
+    border-left: 1px solid $twilight;
+  }
+}
