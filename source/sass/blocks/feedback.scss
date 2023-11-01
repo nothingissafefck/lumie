@@ -3,6 +3,10 @@
   flex-direction: column;
   align-items: flex-start;
 
+  @media (max-width: $vp-max-mobile) {
+    align-items: center;
+  }
+
   dialog {
     border: none;
     padding: 0;
@@ -87,17 +91,34 @@
 
 .feedback__btn {
   margin-bottom: 10px;
+  color: $white;
+  background-color: $atomic;
+
+  &:hover,
+  &:focus {
+    color: $atomic;
+    background-color: $wafer;
+  }
+
+  &:active {
+    color: $atomic;
+    background-color: $cashmere;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
 }
 
 .feedback__primary-btn {
-    font-size: 14px;
-    border: 1px solid $white;
+  color: $atomic;
 }
 
 .feedback__secondary-btn {
-  background-color: $lavender;
-  border: 1px solid $atomic;
-  color: $atomic;
+  background-color: transparent;
+  border: 1px solid $white;
+  color: $white;
 }
 
 .feedback__confidentiality {

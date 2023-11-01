@@ -9,4 +9,8 @@
   border: none;
   background-color: transparent;
   cursor: pointer;
+
+  @media (max-width: $vp-max-mobile) {
+    padding: 10px 0;
+  }
 }

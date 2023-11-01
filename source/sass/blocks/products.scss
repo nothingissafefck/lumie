@@ -6,7 +6,12 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
 
+    @media (max-width: $vp-1200) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
     @media (max-width: $vp-max-mobile) {
+      grid-template-columns: 1fr;
       font-size: 18px;
       line-height: 20px;
     }
@@ -16,10 +21,25 @@
     display: flex;
     justify-content: space-between;
     padding: 20px 0;
+
+    @media (max-width: $vp-max-mobile) {
+      flex-direction: column;
+      align-items: center;
+    }
   }
 
   li {
     padding: 0 15px;
+
+    @media (max-width: $vp-max-mobile) {
+      text-align: center;
+    }
+
+    img {
+      @media (max-width: $vp-max-mobile) {
+        margin: auto;
+      }
+    }
   }
 
   h3 {
