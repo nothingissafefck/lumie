@@ -26,53 +26,52 @@
 </head>
 <body>
     <div class="wrapper">
-        <header class="header">
+        <header class="header" data-menu>
             <div class="header__container container">
                 <a class="header__logo" href="index.html">
                     <img src="img/lumie-logo.svg" width="120" height="80" alt="Логотип интернет-магазина свечей Люми.">
                 </a>
 
-                <button class="header__toggle" type="button">
+                <button class="header__toggle" type="button" data-menu-toggle>
                     <span class="header__toggle-line"></span>
 
-                    <span class="visually-hidden">Открыть меню.</span>
+                    <span class="visually-hidden">Раскрыть меню.</span>
                 </button>
-
 
                 <nav class="navigation header__navigation">
                     <ul>
                         <li>
-                            <a href="index.html">
+                            <a href="index.html#products" data-menu-close>
                                 Каталог
                             </a>
                         </li>
 
                         <li>
-                            <a href="index.html">
+                            <a href="index.html#about" data-menu-close>
                                 О&nbsp;бренде
                             </a>
                         </li>
 
                         <li>
-                            <a href="index.html">
+                            <a href="index.html#b2c" data-menu-close>
                                 Клиентам
                             </a>
                         </li>
 
                         <li>
-                            <a href="index.html">
+                            <a href="index.html#b2b" data-menu-close>
                                 Партнерам
                             </a>
                         </li>
 
                         <li>
-                            <a href="index.html">
+                            <a href="index.html#contacts" data-menu-close>
                                 Контакты
                             </a>
                         </li>
 
                         <li>
-                            <a href="index.html">
+                            <a href="index.html#feedback" data-menu-close>
                                 Обратная&nbsp;связь
                             </a>
                         </li>
@@ -81,8 +80,8 @@
             </div>
         </header>
 
-        <main>
-            <section class="privacy-policy container">
+        <main class="page">
+            <section class="privacy-policy container page__privacy">
                 <div class="privacy-policy__container">
 
 

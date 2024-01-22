@@ -31,13 +31,17 @@
   li {
     padding: 0 15px;
 
+    img {
+      margin-bottom: 10px;
+    }
+
     @media (max-width: $vp-max-mobile) {
       text-align: center;
     }
 
     img {
       @media (max-width: $vp-max-mobile) {
-        margin: auto;
+        margin: 0 auto 10px;
       }
     }
   }

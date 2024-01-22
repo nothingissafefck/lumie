@@ -1,0 +1,10 @@
+.page.menu-open {
+  filter: blur(3px);
+  transition: filter 0.1s;
+}
+
+.menu-open {
+  .page__intro, .page__privacy {
+    padding-top: 80px;
+  }
+}
